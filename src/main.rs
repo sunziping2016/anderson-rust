@@ -122,7 +122,7 @@ fn parse_constraint_list(input: &str) -> IResult<&str, Vec<Constraint>> {
     ))(input)
 }
 
-/* Initializer */
+/* Resolver */
 #[derive(Debug)]
 struct ConstraintNode {
     id: String,
